@@ -1,7 +1,7 @@
 /* FULL PAGE BACKGROUND – ZEN SCROLL */
 .page {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh; /* allow page to grow */
 
   background:
     radial-gradient(
@@ -17,11 +17,26 @@
     );
 
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start; /* top-aligned for reading */
+
+  padding: 60px 0; /* breathing room */
 
   font-family: "Georgia", "Times New Roman", serif;
   color: #3a2f24;
+}
+
+.page-content h3 {
+  font-size: 1.8rem;
+  margin-top: 48px;
+  margin-bottom: 14px;
+
+  color: #5a3f1f;
+  letter-spacing: 1px;
+}
+
+.page-content p {
+  margin-bottom: 24px;
 }
 
 /* CONTENT CONTAINER – RICE PAPER PANEL */

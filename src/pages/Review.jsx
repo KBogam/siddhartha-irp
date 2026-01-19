@@ -6,11 +6,29 @@ function Review() {
     <div className="page">
       <div className="page-content">
         <Link to="/" className="home-button">← Home</Link>
+
         <h2>My Review</h2>
+
         <p>
-          <em>The Giver</em> is a powerful novel that makes readers think
-          about freedom, emotion, and choice.
+          <em>Siddhartha</em> is a thoughtful and meaningful book. It tells the story of a man
+          searching for truth, wisdom, and inner peace. The journey of Siddhartha makes readers
+          think about life, choices, and what it really means to understand oneself.
         </p>
+
+        <p>
+          I enjoyed how the story shows that wisdom cannot be taught, but must be experienced.
+          Each stage of Siddhartha’s life teaches a different lesson, from simplicity and
+          self-discipline to love and the material world. The writing is calm and reflective,
+          which makes the book feel like a quiet journey alongside the main character.
+        </p>
+
+        <p>
+          Overall, <em>Siddhartha</em> is a book that stays with you long after you finish reading.
+          It is not just a story about a man, but also about how everyone searches for meaning
+          in their own way. I would recommend it to anyone who likes stories about personal growth
+          and life lessons.
+        </p>
+
       </div>
     </div>
   );
