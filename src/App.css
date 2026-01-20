@@ -1,198 +1,260 @@
-/* HOME PAGE – COLORFUL ZEN ATMOSPHERE */
+/* =========================================
+   HOME PAGE – LUMINOUS ZEN ATMOSPHERE
+   ========================================= */
+
 .home {
   width: 100vw;
   height: 100vh;
   position: relative;
   overflow: hidden;
 
-  /* Saffron sunrise → parchment → dusk lotus */
   background:
     radial-gradient(
       circle at top,
-      rgba(255, 235, 200, 0.65),
-      rgba(255, 255, 255, 0) 60%
+      rgba(255, 230, 180, 0.7),
+      rgba(255, 200, 200, 0.25),
+      rgba(180, 220, 255, 0.18),
+      rgba(255, 255, 255, 0) 65%
     ),
     linear-gradient(
       180deg,
-      #f9f1e6,
-      #e8d6b8,
-      #cbb89a,
-      #b6a488
+      #fff2df,
+      #f3dfc1,
+      #e2caa4,
+      #c9b08c,
+      #b39b78
     );
 
   font-family: "Georgia", "Times New Roman", serif;
   color: #3a2f24;
 }
 
-/* SOFT LIGHT HAZE – SACRED GLOW */
+/* 🌈 SOFT AURA HAZE */
 .home::before {
   content: "";
   position: absolute;
   inset: 0;
 
   background:
-    radial-gradient(
-      circle at center,
-      rgba(255, 210, 150, 0.25),
-      rgba(180, 140, 90, 0.12),
-      transparent 70%
-    );
+    radial-gradient(circle at 15% 25%, rgba(255, 140, 100, 0.28), transparent 55%),
+    radial-gradient(circle at 85% 30%, rgba(120, 190, 255, 0.28), transparent 55%),
+    radial-gradient(circle at 50% 75%, rgba(160, 255, 200, 0.25), transparent 60%);
 
   pointer-events: none;
   z-index: 0;
 }
 
-/* BUDDHA BACKGROUND IMAGE – AURA HALO */
+/* 🧘 BUDDHA IMAGE */
 .buddha-bg {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   width: 520px;
-  opacity: 0.18;
+  opacity: 0.16;
 
   filter:
-    drop-shadow(0 0 50px rgba(255, 190, 120, 0.55))
-    drop-shadow(0 0 90px rgba(180, 120, 60, 0.25))
-    blur(0.4px);
+    drop-shadow(0 0 60px rgba(255, 180, 110, 0.6))
+    drop-shadow(0 0 100px rgba(140, 190, 255, 0.4))
+    blur(0.6px);
 
   z-index: 1;
   pointer-events: none;
 }
 
-/* FOREGROUND CONTENT */
+/* =========================================
+   FOREGROUND CONTENT
+   ========================================= */
+
 .home-content {
   position: relative;
-  z-index: 3;
+  z-index: 5;
 
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  padding-top: 90px;
+  padding-top: 70px;          /* ⬆️ pulls everything upward */
+  padding-bottom: 260px;     /* space for book */
 }
 
-/* TITLE – GOLDEN TEMPLE TEXT */
+/* =========================================
+   TITLE
+   ========================================= */
+
 .home-header h1 {
-  font-size: 4.4rem;
+  font-size: 4.2rem;
   letter-spacing: 5px;
   font-weight: normal;
 
-  color: #5a3f1f;
+  background: linear-gradient(
+    90deg,
+    #6b3e1f,
+    #c78b2d,
+    #ffe08a,
+    #7fd6ff,
+    #b18cff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   text-shadow:
-    0 2px 6px rgba(0, 0, 0, 0.15),
-    0 0 18px rgba(255, 190, 120, 0.6),
-    0 0 36px rgba(255, 160, 80, 0.35);
+    0 2px 8px rgba(0, 0, 0, 0.2),
+    0 0 30px rgba(255, 210, 120, 0.6),
+    0 0 50px rgba(140, 200, 255, 0.45);
 }
 
 .home-header p {
-  margin-top: 14px;
-  font-size: 1.4rem;
+  margin-top: 12px;
+  font-size: 1.35rem;
   font-style: italic;
-  opacity: 0.9;
 
   color: #6b4a2a;
 
   text-shadow:
-    0 2px 6px rgba(0, 0, 0, 0.12),
-    0 0 12px rgba(255, 190, 120, 0.35);
+    0 0 14px rgba(255, 190, 120, 0.4),
+    0 0 22px rgba(140, 200, 255, 0.3);
 }
 
-/* NAVBAR – FLOATING LOTUS STYLE */
+/* =========================================
+   NAVBAR – COOLER, FLOATING BUTTONS
+   ========================================= */
+
 .home-nav {
-  margin-top: 60px;
+  margin-top: 48px;     /* ⬆️ raised buttons */
   display: flex;
-  gap: 42px;
+  gap: 36px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-/* NAV LINKS – JADE + BRONZE */
+/* 🔮 BUTTON STYLE */
 .home-nav a {
   text-decoration: none;
-  padding: 14px 30px;
+  padding: 14px 34px;
 
   font-size: 1.05rem;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.4px;
 
-  color: #4f6b5a;
+  color: #355f55;
   position: relative;
 
-  transition: color 0.35s ease, text-shadow 0.35s ease;
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.15)
+    );
+
+  backdrop-filter: blur(6px);
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+
+  transition: all 0.35s ease;
 }
 
-/* UNDERLINE LIGHT – LOTUS GOLD */
+/* 🌈 GLOW STRIP */
 .home-nav a::after {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -7px;
+  bottom: -10px;
   width: 0;
-  height: 2px;
+  height: 3px;
 
   background: linear-gradient(
-    to right,
-    #d4af6a,
-    #9c7a44
+    90deg,
+    #ff7a7a,
+    #ffd36a,
+    #7fffd4,
+    #7ab7ff,
+    #c27aff
   );
 
-  transition: all 0.35s ease;
   transform: translateX(-50%);
+  transition: width 0.35s ease;
 }
 
-/* HOVER – WARM ENLIGHTENMENT */
+/* ✨ HOVER */
 .home-nav a:hover {
-  color: #9c7a44;
+  color: #8b5a2b;
 
-  text-shadow:
-    0 0 10px rgba(255, 200, 120, 0.5),
-    0 0 18px rgba(255, 170, 90, 0.35);
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 16px 40px rgba(0, 0, 0, 0.2),
+    0 0 28px rgba(255, 200, 120, 0.45),
+    0 0 40px rgba(140, 200, 255, 0.35);
 }
 
 .home-nav a:hover::after {
   width: 100%;
 }
 
-/* BOOK COVER – GALLERY PEDESTAL */
+/* =========================================
+   BOOK COVER – LOCKED LOW
+   ========================================= */
+
 .book-cover {
   position: absolute;
-  bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
 
-  width: 240px;
-  border-radius: 8px;
+  bottom: 12px;
+  width: 220px;
+
+  border-radius: 10px;
 
   box-shadow:
-    0 30px 60px rgba(0, 0, 0, 0.35),
-    0 0 40px rgba(255, 200, 120, 0.35);
+    0 28px 60px rgba(0, 0, 0, 0.35),
+    0 0 45px rgba(255, 200, 120, 0.4),
+    0 0 65px rgba(140, 200, 255, 0.25);
 
-  z-index: 3;
+  pointer-events: none;
+  z-index: 2;
 }
 
-/* FOOTER – FADED INCENSE TEXT */
+/* =========================================
+   FOOTER
+   ========================================= */
+
 .home-footer {
   position: absolute;
-  bottom: 22px;
+  bottom: 20px;
   width: 100%;
   text-align: center;
 
-  font-size: 0.85rem;
-  opacity: 0.6;
-
-  color: #6d5438;
-  z-index: 3;
+  z-index: 6;
 }
+
 .home-footer p {
-  font-size: 1.25rem;
-  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  letter-spacing: 1.4px;
   font-weight: 600;
 
   color: #5a3f1f;
 
   text-shadow:
-    0 0 12px rgba(255, 190, 120, 0.45);
+    0 0 14px rgba(255, 190, 120, 0.5),
+    0 0 22px rgba(140, 200, 255, 0.35);
+}
+
+/* =========================================
+   SMALL SCREENS
+   ========================================= */
+
+@media (max-height: 760px) {
+  .book-cover {
+    width: 170px;
+  }
+
+  .home-header h1 {
+    font-size: 3.6rem;
+  }
 }

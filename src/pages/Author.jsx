@@ -32,6 +32,17 @@ function Author() {
           died, when, in the mid-1960s, his work became super popular with
           post–World War II generation readers in the West.
         </p>
+
+        {/* 🔗 MORE INFO LINK */}
+        <div className="more-info">
+          <a
+            href="https://www.nobelprize.org/prizes/literature/1946/hesse/biographical/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            More info →
+          </a>
+        </div>
       </div>
     </div>
   );

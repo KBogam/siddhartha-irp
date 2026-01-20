@@ -131,3 +131,27 @@
     0 20px 40px rgba(0, 0, 0, 0.25),
     0 0 25px rgba(255, 200, 120, 0.3);
 }
+
+
+.more-info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.more-info a {
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+
+  color: #7a4e2d;
+
+  padding-bottom: 4px;
+  border-bottom: 2px solid rgba(122, 78, 45, 0.4);
+
+  transition: all 0.3s ease;
+}
+
+.more-info a:hover {
+  color: #b07a3f;
+  border-bottom-color: #b07a3f;
+}

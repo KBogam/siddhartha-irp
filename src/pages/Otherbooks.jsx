@@ -15,10 +15,53 @@ function OtherBooks() {
         </p>
 
         <ul>
-          <li><em>The Alchemist</em> by Paulo Coelho – A story about following your dreams and listening to your heart.</li>
-          <li><em>The Giver</em> by Lois Lowry – A thought-provoking tale about choice, freedom, and understanding society.</li>
-          <li><em>Life of Pi</em> by Yann Martel – A journey of survival, faith, and personal belief in the face of hardship.</li>
-          <li><em>Man’s Search for Meaning</em> by Viktor Frankl – A philosophical memoir exploring the human search for purpose and resilience.</li>
+          <li>
+            <em>The Alchemist</em> by Paulo Coelho – A story about following your dreams
+            and listening to your heart.{" "}
+            <a
+              href="https://www.britannica.com/topic/The-Alchemist-novel-by-Coelho"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              More info →
+            </a>
+          </li>
+
+          <li>
+            <em>The Giver</em> by Lois Lowry – A thought-provoking tale about choice,
+            freedom, and understanding society.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/The_Giver"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              More info →
+            </a>
+          </li>
+
+          <li>
+            <em>Life of Pi</em> by Yann Martel – A journey of survival, faith, and personal
+            belief in the face of hardship.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Life_of_Pi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              More info →
+            </a>
+          </li>
+
+          <li>
+            <em>Man’s Search for Meaning</em> by Viktor Frankl – A philosophical memoir
+            exploring the human search for purpose and resilience.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              More info →
+            </a>
+          </li>
         </ul>
       </div>
     </div>

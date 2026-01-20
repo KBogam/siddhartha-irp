@@ -65,6 +65,17 @@ function Themes() {
           that enlightenment is achieved not by avoiding mistakes, but by accepting
           responsibility for one’s actions and learning from their consequences.
         </p>
+
+        {/* 🔗 MORE INFO LINK */}
+        <div className="more-info">
+          <a
+            href="https://www.litcharts.com/lit/siddhartha/themes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            More info →
+          </a>
+        </div>
       </div>
     </div>
   );
