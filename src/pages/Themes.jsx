@@ -35,13 +35,13 @@ function Themes() {
 
         <h3>Individuality</h3>
         <p>
- The concept of individuality is significant because Siddhartha disagrees with the notion that enlightenment can be taught or duplicated. While he acknowledges the Buddha and other spiritual figures, he understands that adhering to another's path leads to acquired knowledge, not genuine understanding. Siddhartha maintains that personal truth is found through individual experiences, including challenges, ambiguities, and insights. His rejection of prescribed rules underscores the novel's theme that self-discovery is not a standardized process. Hesse illustrates through Siddhartha's experiences that independence is not equivalent to selfishness, but is instead a fundamental element of achieving fulfillment.
+Individuality is important in that Siddhartha is have to contradict that enlightenment can be learned or copied. Although he respects the Buddha and spiritual gurus, he states that following someone else can only lead to learned knowledge, not real knowledge. Siddhartha is of the belief that personal truth can only be attained through personal experience, with all of its associated difficulties, contradictions and realisations. His denial of formulas emphasizes the novel‘s message that the journey to the self is not a prescribed one. Hesse demonstrates that independence is not selfishness, but an essential part of fulfillment.
 
         </p>
 
         <h3>Choice</h3>
         <p>
- Illumination in Siddhartha also occurs as a result of choice and lived experience. Siddhartha chooses to proceed down any path he takes, and he chooses the type of life he wishes to live.(He leaves his home, he shuns the teachings of Gotama, he tries to give himself real worth, and finally, he gives away the wealth he obtains.)Each of these things he chooses, of course, has the direct effects that he experiences, and the pain he endures as a result is the pain that is learned from. The novel shows that the path to enlightenment does not avoid mistakes but is rather dependent upon taking responsibility for their effect.
+ In Siddhartha, enlightenment is achieved through experience and free will. The novel does not merely hold the concept of the doctrine responsible for Siddhartha‘s enlightenment, but also his decisions. At every stage he is responsible for his decision to make the journey, to discard the doctrines of Gotama, to strive in the material world, to then discard the material wealth he has acquired. All of these decisions have consequences, and Siddhartha suffers from the pain of these consequences and grows as a person from them. The novel puts forward the idea of responsibility for the individual‘s enlightenment as it is an acknowledgement of the fact that they have made a mistake and through that mistake they grow.
         </p>
 
         {/* 🔗 MORE INFO LINK */}

@@ -50,13 +50,23 @@ function App() {
               </nav>
             </div>
 
-            {/* Book cover at bottom */}
+            {/* Book cover */}
             <img
               src={BookCover}
               alt="Siddhartha Book Cover"
               className="book-cover"
             />
 
+            {/* ✅ Explanation text directly BELOW book cover */}
+            <div className="home-bottom-note">
+              <p>
+                You can navigate through the site with the buttons. I created each page and the content was written by me. However you can click
+                <strong> “More info”</strong> links at the bottom of each page,
+                which leads to official and trusted sources.
+              </p>
+            </div>
+
+            {/* Footer BELOW the text */}
             <div className="home-footer">
               <p>IRP Project • Krish Bogam</p>
             </div>

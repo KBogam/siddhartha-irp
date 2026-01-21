@@ -4,10 +4,10 @@
 
 .home {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
-  overflow: hidden;
-
+  overflow-y: auto;
+  isolation: isolate;
   background:
     radial-gradient(
       circle at top,
@@ -71,13 +71,11 @@
   position: relative;
   z-index: 5;
 
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  padding-top: 70px;          /* ⬆️ pulls everything upward */
-  padding-bottom: 260px;     /* space for book */
+  padding-top: 70px;
 }
 
 /* =========================================
@@ -119,18 +117,17 @@
 }
 
 /* =========================================
-   NAVBAR – COOLER, FLOATING BUTTONS
+   NAVBAR
    ========================================= */
 
 .home-nav {
-  margin-top: 48px;     /* ⬆️ raised buttons */
+  margin-top: 48px;
   display: flex;
   gap: 36px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-/* 🔮 BUTTON STYLE */
 .home-nav a {
   text-decoration: none;
   padding: 14px 34px;
@@ -159,7 +156,6 @@
   transition: all 0.35s ease;
 }
 
-/* 🌈 GLOW STRIP */
 .home-nav a::after {
   content: "";
   position: absolute;
@@ -181,16 +177,9 @@
   transition: width 0.35s ease;
 }
 
-/* ✨ HOVER */
 .home-nav a:hover {
   color: #8b5a2b;
-
   transform: translateY(-3px);
-
-  box-shadow:
-    0 16px 40px rgba(0, 0, 0, 0.2),
-    0 0 28px rgba(255, 200, 120, 0.45),
-    0 0 40px rgba(140, 200, 255, 0.35);
 }
 
 .home-nav a:hover::after {
@@ -198,26 +187,47 @@
 }
 
 /* =========================================
-   BOOK COVER – LOCKED LOW
+   BOOK + FOOTER STACK (NORMAL FLOW)
    ========================================= */
 
 .book-cover {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-
-  bottom: 12px;
+  display: block;
+  margin: 60px auto 20px;
   width: 220px;
 
-  border-radius: 10px;
+  /* FORCE SOLID */
+  background-color: #ffffff;
+  opacity: 1;
 
+  /* REMOVE BLEED */
+  filter: none;
+
+  /* STRONG FRAME */
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+
+  /* SOLID SHADOW (NO GLOW) */
   box-shadow:
-    0 28px 60px rgba(0, 0, 0, 0.35),
-    0 0 45px rgba(255, 200, 120, 0.4),
-    0 0 65px rgba(140, 200, 255, 0.25);
+    0 20px 45px rgba(0, 0, 0, 0.45);
 
-  pointer-events: none;
-  z-index: 2;
+  z-index: 10;
+}
+
+
+
+/* =========================================
+   DISCLAIMER TEXT
+   ========================================= */
+
+.home-bottom-note {
+  max-width: 600px;
+  margin: 0 auto 16px;
+  padding: 0 20px;
+
+  font-size: 0.9rem;
+  opacity: 0.85;
+  text-align: center;
 }
 
 /* =========================================
@@ -225,16 +235,13 @@
    ========================================= */
 
 .home-footer {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
+  margin-bottom: 30px;
   text-align: center;
-
   z-index: 6;
 }
 
 .home-footer p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 1.4px;
   font-weight: 600;
 

@@ -10,27 +10,26 @@ function Review() {
         <h2>My Review</h2>
 
         <p>
-          <em>Siddhartha</em> is a deep and groundbreaking novel. It tells the story
-          of a man who goes in search of truth, wisdom, and inner peace. As
-          Siddhartha begins his journey, it also encourages readers to reflect on
-          their own lives, their decisions, and what it truly means to know
-          oneself.
+          <em>Siddhartha</em> was a very profound, ground, breaking book. It was
+          about a man who travelled the earth in search of truth, knowledge, and
+          peace. As Siddhartha begins his travels, its contents always make the
+          reader question oneself, one‘s life, one‘s choices; ultimately, one and
+          one‘s knowledge.
         </p>
 
         <p>
-          For me, one of the things I liked most about the book is how it shows
-          that wisdom cannot really be taught—it must be experienced. Each phase
-          of Siddhartha’s life teaches a new lesson, such as discipline and
-          simplicity, love, and living with material possessions. The language is
-          calm and quiet, making the reader feel thoughtful, as if they are taking
-          a peaceful walk alongside Siddhartha.
+          For myself, one of the most intelligent things about this book is how it
+          shows that wisdom can only be gained from life and not from books or
+          schoolrooms. Every stage of Siddhartha‘s life has something different
+          to teach; discipline and austerity, love, possessions. The language is
+          calm and gentle, almost like the flow of a river.
         </p>
 
         <p>
-          Overall, <em>Siddhartha</em> is a story that stays with you even after it
-          ends. It is not just about one man, but about how every person searches
-          for meaning in their own way. I would recommend this book to anyone who
-          enjoys stories with life lessons and personal development.
+          In general, <em>Siddhartha</em> is a novel I will remember long after
+          having finished reading. It is more than a story about one person‘s
+          quest. It is about how each person looks for their own meaning in life.
+          I would recommend this story to a reader and a scholar.
         </p>
 
         {/* 🔗 MORE INFO LINK */}
