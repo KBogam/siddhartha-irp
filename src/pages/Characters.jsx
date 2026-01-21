@@ -17,38 +17,39 @@ function Characters() {
 
         <h3>Siddhartha</h3>
         <p>
-          Siddhartha is the main character of the novel. He is always searching
-          for meaning and truth in life. He does not like being told how to think
-          or what to believe. Instead, he learns through his own experiences and
-          mistakes. By the end of the story, he gains wisdom by understanding
-          life as a whole.
+          Siddhartha is the protagonist of the novel. He is continually seeking
+          meaning and truth in life. He dislikes being told what to think and what
+          to believe. He learns from his own experiences and, especially, from
+          his mistakes. At the end of the novel, he gains wisdom through
+          experiencing life in its totality.
         </p>
 
         <h3>Govinda</h3>
         <p>
-          Govinda is Siddhartha’s close friend. Unlike Siddhartha, he prefers to
-          follow teachers and religious rules. He is loyal and kind, but often
-          unsure of himself. Govinda believes guidance from others will lead him
-          to enlightenment. His character shows a different way of seeking
-          truth.
+          Govinda is Siddhartha‘s best friend. He is quite different from
+          Siddhartha in that he prefers to have teachers and strict rules. He is
+          a faithful, sweet person but not always sure of himself. Govinda feels
+          that he will find enlightenment through others guiding him to the
+          right place. He contrasts quite sharply with Siddhartha.
         </p>
 
         <h3>Gotama (the Buddha)</h3>
         <p>
-          Gotama is a respected spiritual teacher in the story. He has already
-          reached enlightenment and teaches others how to do the same.
-          Siddhartha admires him but does not follow his path. Gotama represents
-          peace, discipline, and spiritual order. He shows what Siddhartha could
-          become, but through a different journey.
+          Gotama is an influential teacher of spiritual enlightenment. He knows
+          of enlightenment, and teaches others how to attain it. Siddhartha
+          respects him but does not want to follow his example. Gotama is
+          associated with harmony, discipline and Order. He depicts the sort of
+          thing that Siddhartha could have, if he took a different path.
         </p>
 
         <h3>Kamala</h3>
         <p>
-          Kamala is a woman who teaches Siddhartha about love and desire. She
-          introduces him to a wealthy and comfortable lifestyle. Through her,
-          Siddhartha experiences pleasure and emotional attachment. Kamala
-          represents the material world and its temptations. She plays an
-          important role in Siddhartha’s growth.
+          Kamala is a woman who shows Siddhartha the pleasures of love and the
+          area of life we call “desires.” With her, Siddhartha is introduced to a
+          life of wealth and comfort. She brings sensual pleasures to him and
+          teaches him the meaning of loving and being loved. Kamala symbolizes
+          the temptation of the material world. Her importance in the novel is
+          that she helps Siddhartha to grow.
         </p>
 
         {/* 🔗 MORE INFO LINK */}
@@ -61,6 +62,7 @@ function Characters() {
             More info →
           </a>
         </div>
+
       </div>
     </div>
   );

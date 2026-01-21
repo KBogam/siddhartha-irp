@@ -10,27 +10,18 @@ function Setting() {
         <h2>Setting</h2>
 
         <p>
-          Siddhartha’s story happens in ancient India during the same era as the
-          Buddha. The environment is made up of forests, flowing rivers, villages,
-          and large cities. Siddhartha travels through many places, and each place
-          symbolizes a particular stage of his life.
+      Similar to the Buddha, the story of Siddartha takes place in the India of old times in the same time period as the Buddha. The setting is a forest with running streams, villages and large cities. Siddhartha moves from city to city throughout the story, each one having a meaning in terms of his life.
+
+Initially, Siddhartha was a resident of the house of his father. We are told that Siddartha was brought up in peaceful village. Later we learn that he leaves the house to become a Samana, where he travels through the woods and lives under extremely strict ethical code. Later he reaches the city into where everything is abundant in wealth and comfort as well as human wishes.
+
+Toward the conclusion of the novel, the river reclaims some significance and functions as a metaphor for life, the clock of life, and acquiring wisdom. Siddhartha, hears and listens to the river, and in doing so, learns that everything is one, and finds enlightenment. The setting mirrors the physical journey he takes as well as the inward journey.
         </p>
 
-        <p>
-          At first, Siddhartha lives in his father’s house in a quiet town. Later,
-          he decides to leave and become a Samana, walking through forests and
-          following strict rules of self-discipline. As the story continues, he
-          enters the city, where life is filled with wealth, comfort, and human
-          desires.
-        </p>
-
-        <p>
-          Near the end of the story, the river becomes very important and serves
-          as a symbol of life, time, and wisdom. By listening to the river,
-          Siddhartha gains an understanding of the unity of all things and finds
-          peace within himself. The setting reflects both the physical journey he
-          takes and his inner journey toward enlightenment.
-        </p>
+<img
+  src="https://images.stockcake.com/public/e/d/4/ed46e285-7af7-44e8-9971-9f5846a3eeeb_large/sunlit-forest-river-stockcake.jpg"
+  alt="Sunlit forest river"
+  className="hero-image"
+/>
 
         {/* 🔗 MORE INFO LINK */}
         <div className="more-info">

@@ -41,7 +41,7 @@ function Themes() {
 
         <h3>Choice</h3>
         <p>
-  Siddhartha's journey demonstrates that enlightenment comes through personal choices and lived experience. He makes deliberate decisions throughout his life, rather than relying on fate or external authority. His choices—to leave home, reject formal teachings, pursue wealth, and later abandon it—all have consequences that deepen his understanding of life. These decisions often lead to pain, but that pain serves as a valuable instructor. The novel suggests that enlightenment is achieved not by avoiding mistakes, but by accepting responsibility for one's actions and learning from their outcomes.
+ Illumination in Siddhartha also occurs as a result of choice and lived experience. Siddhartha chooses to proceed down any path he takes, and he chooses the type of life he wishes to live.(He leaves his home, he shuns the teachings of Gotama, he tries to give himself real worth, and finally, he gives away the wealth he obtains.)Each of these things he chooses, of course, has the direct effects that he experiences, and the pain he endures as a result is the pain that is learned from. The novel shows that the path to enlightenment does not avoid mistakes but is rather dependent upon taking responsibility for their effect.
         </p>
 
         {/* 🔗 MORE INFO LINK */}
