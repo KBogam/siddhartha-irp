@@ -10,26 +10,25 @@ function Review() {
         <h2>My Review</h2>
 
         <p>
-          <em>Siddhartha</em> was a very profound, ground, breaking book. It was
+          <em>Siddhartha</em> was a very profound, ground breaking book. It was
           about a man who travelled the earth in search of truth, knowledge, and
-          peace. As Siddhartha begins his travels, its contents always make the
-          reader question oneself, one‘s life, one‘s choices; ultimately, one and
-          one‘s knowledge.
+          peace. As Siddhartha begins traveling, its contents always make the
+          reader question oneself, one‘s life, one‘s choices.
         </p>
 
         <p>
           For myself, one of the most intelligent things about this book is how it
           shows that wisdom can only be gained from life and not from books or
           schoolrooms. Every stage of Siddhartha‘s life has something different
-          to teach; discipline and austerity, love, possessions. The language is
+          to teach, like discipline, austerity, love, and even possessions. The language is
           calm and gentle, almost like the flow of a river.
         </p>
 
         <p>
           In general, <em>Siddhartha</em> is a novel I will remember long after
           having finished reading. It is more than a story about one person‘s
-          quest. It is about how each person looks for their own meaning in life.
-          I would recommend this story to a reader and a scholar.
+          quest. It is about how people in general look for their own meaning in life.
+          I would recommend this story to a reader and a scholar who like engaging in deep thinking.
         </p>
 
         {/* 🔗 MORE INFO LINK */}
