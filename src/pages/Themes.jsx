@@ -30,40 +30,18 @@ function Themes() {
 
         <h3>Importance of Memory</h3>
         <p>
-          Memory is very important within the story as it allows Siddhartha to connect his
-          past experiences with his present understanding. Throughout the story, when he
-          indulges in material pleasure or becomes lost in emotional suffering, memories of
-          his early spiritual pursuit help him get back on track. These memories act as an
-          inner guide, reminding him of the meaning he had once searched for and preventing
-          him from being empty inside. From his past experiences, he is able to reflect
-          rather than repeat the same errors. His final wisdom comes not from forgetting his
-          past lives, but from integrating every experience into a unified understanding of
-          existence.
+         Memory plays a significant role in the story, allowing Siddhartha to link his previous experiences with his current comprehension. As the narrative progresses, whenever he gives in to worldly desires or becomes overwhelmed by emotional distress, recollections of his initial spiritual journey help reorient him. These memories serve as an internal guide, reminding him of the purpose he once sought and preventing him from feeling empty. By drawing from his past, he is able to reflect and learn, rather than repeating his errors. His ultimate wisdom comes not from dismissing his former experiences, but from integrating every event into a comprehensive understanding of existence.
         </p>
 
         <h3>Individuality</h3>
         <p>
-          Individuality is an essential topic because Siddhartha rejects the idea that
-          enlightenment can be taught or replicated. Although he respects spiritual leaders
-          like the Buddha, he realizes that following another person's path will result in
-          borrowed wisdom rather than actual insight. Siddhartha believes that truth must be
-          discovered individually, through one's own difficulties, uncertainties, and
-          revelations. His refusal to follow the rules emphasizes the novel’s principle
-          that self-discovery cannot be standardized. Through Siddhartha's journey, Hesse
-          shows that independence is not selfishness, but rather an essential basis for real
-          fulfillment in life.
+ The concept of individuality is significant because Siddhartha disagrees with the notion that enlightenment can be taught or duplicated. While he acknowledges the Buddha and other spiritual figures, he understands that adhering to another's path leads to acquired knowledge, not genuine understanding. Siddhartha maintains that personal truth is found through individual experiences, including challenges, ambiguities, and insights. His rejection of prescribed rules underscores the novel's theme that self-discovery is not a standardized process. Hesse illustrates through Siddhartha's experiences that independence is not equivalent to selfishness, but is instead a fundamental element of achieving fulfillment.
+
         </p>
 
         <h3>Choice</h3>
         <p>
-          Choice drives Siddhartha's journey and supports the view that enlightenment is
-          acquired through lived experience. Siddhartha makes conscious decisions during
-          major changes in his life rather than relying on fate or authority. His decisions
-          to leave home, reject organized teachings, pursue wealth, and later renounce it
-          all have consequences that help him better understand life. These decisions often
-          result in pain, but that pain serves as a valuable instructor. The novel argues
-          that enlightenment is achieved not by avoiding mistakes, but by accepting
-          responsibility for one’s actions and learning from their consequences.
+  Siddhartha's journey demonstrates that enlightenment comes through personal choices and lived experience. He makes deliberate decisions throughout his life, rather than relying on fate or external authority. His choices—to leave home, reject formal teachings, pursue wealth, and later abandon it—all have consequences that deepen his understanding of life. These decisions often lead to pain, but that pain serves as a valuable instructor. The novel suggests that enlightenment is achieved not by avoiding mistakes, but by accepting responsibility for one's actions and learning from their outcomes.
         </p>
 
         {/* 🔗 MORE INFO LINK */}

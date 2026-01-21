@@ -10,24 +10,44 @@ function Summary() {
         <h2>Summary</h2>
 
         <p>
-          <em>Siddhartha</em> tells the story of a young man in ancient India who is searching 
-          for true meaning and spiritual enlightenment. Unsatisfied with the teachings of his 
-          family and the local priests, he leaves his home to explore life on his own terms.
+          <em>Siddhartha</em> is a story about a young man from ancient India who
+          leaves his home and family to seek truth, wisdom, and inner peace.
+          Although he is smart and respected, he feels unhappy with what he learns
+          from others. He believes that real knowledge comes from personal
+          experience rather than simply listening to what others say.
         </p>
 
         <p>
-          He first becomes a Samana, practicing strict self-discipline and renouncing worldly 
-          pleasures. Later, he explores wealth, love, and material comfort, learning about 
-          desire, attachment, and the distractions of the world. Throughout his journey, he 
-          experiences joy, sorrow, and deep reflection, gradually understanding the lessons 
-          life teaches him.
+          At first, Siddhartha joins a group of religious followers called
+          Samanas, where he practices strict self-discipline and denial. However,
+          he soon realizes that being overly strict or spiritual does not lead to
+          true happiness.
         </p>
 
         <p>
-          In the end, Siddhartha finds inner peace by the river, realizing that true wisdom 
-          cannot be taught but must be discovered through experience. He learns that all 
-          aspects of life—spiritual, emotional, and material—are connected, and this unity 
-          brings him enlightenment.
+          Next, Siddhartha enters a lively world filled with people, where he
+          experiences love, wealth, and desire. He becomes close to a woman named
+          Kamala and works as a merchant. Through this lifestyle, he learns about
+          pleasure, pain, and emotional attachment.
+        </p>
+
+        <p>
+          After some time, Siddhartha feels empty and decides to leave this life
+          behind once again. Feeling lost, he finds himself by a river, which
+          plays an important role in his spiritual journey.
+        </p>
+
+        <p>
+          Living by the river, Siddhartha begins to listen and reflect deeply. The
+          river teaches him that time is not real and that all moments are
+          connected. By being patient and accepting things as they are, he
+          discovers inner peace.
+        </p>
+
+        <p>
+          In the end, Siddhartha gains wisdom not from teachers, but through his
+          own experiences. He feels calm and understands that true wisdom comes
+          from accepting all aspects of life as a unified whole.
         </p>
 
       </div>

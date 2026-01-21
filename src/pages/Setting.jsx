@@ -10,24 +10,26 @@ function Setting() {
         <h2>Setting</h2>
 
         <p>
-          The story of <em>Siddhartha</em> takes place in ancient India, during the time
-          of the Buddha. The world is full of forests, rivers, villages, and cities.
-          Siddhartha travels through many different places, each representing a
-          different stage of life.
+          Siddhartha’s story happens in ancient India during the same era as the
+          Buddha. The environment is made up of forests, flowing rivers, villages,
+          and large cities. Siddhartha travels through many places, and each place
+          symbolizes a particular stage of his life.
         </p>
 
         <p>
-          Early in the story, Siddhartha lives in his father’s home in a peaceful
-          town. He then leaves to live as a Samana, wandering through forests and
-          practicing strict self-discipline. Later, he experiences life in the
-          city, filled with wealth, luxury, and human desires.
+          At first, Siddhartha lives in his father’s house in a quiet town. Later,
+          he decides to leave and become a Samana, walking through forests and
+          following strict rules of self-discipline. As the story continues, he
+          enters the city, where life is filled with wealth, comfort, and human
+          desires.
         </p>
 
         <p>
-          The river near the end of the story is a key setting, symbolizing life,
-          time, and wisdom. It is there that Siddhartha finally understands the
-          unity of all experiences and reaches inner peace. The different settings
-          reflect both the external and inner journey Siddhartha undertakes.
+          Near the end of the story, the river becomes very important and serves
+          as a symbol of life, time, and wisdom. By listening to the river,
+          Siddhartha gains an understanding of the unity of all things and finds
+          peace within himself. The setting reflects both the physical journey he
+          takes and his inner journey toward enlightenment.
         </p>
 
         {/* 🔗 MORE INFO LINK */}
@@ -40,6 +42,7 @@ function Setting() {
             More info →
           </a>
         </div>
+
       </div>
     </div>
   );

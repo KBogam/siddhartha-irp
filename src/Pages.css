@@ -155,3 +155,29 @@
   color: #b07a3f;
   border-bottom-color: #b07a3f;
 }
+.book-grid {
+  display: flex;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.book-card {
+  max-width: 200px;
+  text-align: center;
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.book-card img:hover {
+  transform: scale(1.05);
+}
+
+.book-card p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
